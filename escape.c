@@ -1,4 +1,4 @@
-//程序清单 3.10 使用转义序列
+//绋嬪簭娓呭崟 3.10 浣跨敤杞箟搴忓垪
 #include <stdio.h>
 int main(void)
 {

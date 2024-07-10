@@ -1,9 +1,9 @@
-//³ÌĞòÇåµ¥ 3.6 ¿ÉÒÆÖ²ÕûÊıÀàĞÍÃû
+//ç¨‹åºæ¸…å• 3.6 å¯ç§»æ¤æ•´æ•°ç±»å‹å
 #include <stdio.h>
-#include <inttypes.h> //Ö§³Ö¿ÉÒÆÖ²ÀàĞÍ
+#include <inttypes.h> //æ”¯æŒå¯ç§»æ¤ç±»å‹
 int main(void)
 {
-	int32_t me32; //me32 ÊÇÒ»¸ö 32 Î»ÓĞ·ûºÅÕûĞÍ±äÁ¿
+	int32_t me32; //me32 æ˜¯ä¸€ä¸ª 32 ä½æœ‰ç¬¦å·æ•´å‹å˜é‡
 
 	me32 = 45933945;
 	printf("First, assume int32_t is int: ");
