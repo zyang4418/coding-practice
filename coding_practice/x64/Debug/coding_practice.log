@@ -1,0 +1,6 @@
+﻿  badcount.c
+C:\Users\yang\Desktop\Project\badcount.c(10,20): warning C4474: printf: 格式字符串中传递的参数太多
+C:\Users\yang\Desktop\Project\badcount.c(11,9): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+C:\Users\yang\Desktop\Project\badcount.c(12,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+C:\Users\yang\Desktop\Project\badcount.c(12,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“double”
+  Project.vcxproj -> C:\Users\yang\Desktop\Project\x64\Debug\Project.exe
