@@ -130,10 +130,10 @@
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Project.rc" />
+    <ClCompile Include="escape.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="escape.c" />
+    <ResourceCompile Include="coding_practice.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
