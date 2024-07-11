@@ -1,4 +1,5 @@
 //程序清单 4.1 演示与用户交互
+//这个程序在 Visual Studio 2022 中不能正常运行
 #include <stdio.h>
 #include <string.h> //提供 strlen() 函数的原型
 #define DENSITY 62.4 //人体密度（单位：磅/立方英尺）
@@ -9,7 +10,7 @@ int main(void)
 	char name[40]; //name 是一个可容纳 40 个字符的数组
 	
 	printf("Hi! What's your first name?\n");
-	scanf_s("%s", name);
+	scanf_s("%s", name); 
 	printf("%s, what's your weight in pounds?\n", name);
 	scanf_s("%f", &weight);
 	size = sizeof(name);
