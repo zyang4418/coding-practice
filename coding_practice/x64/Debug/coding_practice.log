@@ -1,3 +1,5 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(coding_practice\x64\Debug\)包含从另一个项目(Project.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  escape.c
+﻿  talkback.c
+C:\Users\yang\source\repos\zyang4418\coding_practice\talkback.c(12,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+C:\Users\yang\source\repos\zyang4418\coding_practice\talkback.c(16,12): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\yang\source\repos\zyang4418\coding_practice\talkback.c(17,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   coding_practice.vcxproj -> C:\Users\yang\source\repos\zyang4418\coding_practice\x64\Debug\coding_practice.exe
