@@ -133,7 +133,7 @@
     <ResourceCompile Include="coding_practice.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="talkback.c" />
+    <ClCompile Include="praise2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

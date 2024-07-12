@@ -25,7 +25,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="talkback.c">
+    <ClCompile Include="praise2.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
