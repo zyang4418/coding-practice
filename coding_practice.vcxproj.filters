@@ -20,12 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="coding_practice.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="praise2.c">
+    <ClCompile Include="talkback.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,3 +1,8 @@
-﻿  praise2.c
-C:\Users\ROG\Documents\GitHub\coding_practice\praise2.c(13,10): warning C4477: “scanf_s”: 格式字符串“%s”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+﻿  talkback.c
+C:\Users\ROG\Documents\GitHub\coding_practice\talkback.c(13,10): warning C4477: “scanf_s”: 格式字符串“%s”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+      C:\Users\ROG\Documents\GitHub\coding_practice\talkback.c(13,10):
+      此参数用作缓冲区大小
+  
+C:\Users\ROG\Documents\GitHub\coding_practice\talkback.c(19,12): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ROG\Documents\GitHub\coding_practice\talkback.c(20,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   coding_practice.vcxproj -> C:\Users\ROG\Documents\GitHub\coding_practice\x64\Debug\coding_practice.exe

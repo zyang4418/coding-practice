@@ -1,11 +1,11 @@
-//³ÌĞòÇåµ¥ 3.5 ÏÔÊ¾×Ö·ûµÄ´úÂë±àºÅ
+//ç¨‹åºæ¸…å• 3.5 ï¿½ï¿½Ê¾ï¿½Ö·ï¿½ï¿½Ä´ï¿½ï¿½ï¿½ï¿½ï¿½
 #include <stdio.h>
 int main(void)
 {
 	char ch;
 
 	printf("Please enter a character.\n");
-	scanf_s("%c", &ch);//ÓÃ»§ÊäÈë×Ö·û
+	scanf_s("%c", &ch);//ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½
 	printf("The code for %c is %d.\n", ch, ch);
 
 	return 0;

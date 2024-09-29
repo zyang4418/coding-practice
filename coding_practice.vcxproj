@@ -130,10 +130,7 @@
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="coding_practice.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="praise2.c" />
+    <ClCompile Include="talkback.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

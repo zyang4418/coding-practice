@@ -1,4 +1,4 @@
-//程序清单 3.9 参数错误的情况
+//绋嬪簭娓呭崟 3.9 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
 #include <stdio.h>
 int main(void)
 {
@@ -7,9 +7,9 @@ int main(void)
 	float f = 7.0f;
 	float g = 8.0f;
 
-	printf("%d\n", n, m);//参数太多
-	printf("%d %d %d\n", n);//参数太少
-	printf("%d %d\n", f, g);//值的类型不匹配
+	printf("%d\n", n, m);//锟斤拷锟斤拷太锟斤拷
+	printf("%d %d %d\n", n);//锟斤拷锟斤拷太锟斤拷
+	printf("%d %d\n", f, g);//值锟斤拷锟斤拷锟酵诧拷匹锟斤拷
 
 	return 0;
 
