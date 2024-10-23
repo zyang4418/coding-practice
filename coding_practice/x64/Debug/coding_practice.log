@@ -1,4 +1,2 @@
-﻿  FileName.c
-C:\Users\ROG\Documents\GitHub\coding_practice\FileName.c(8,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
-C:\Users\ROG\Documents\GitHub\coding_practice\FileName.c(8,9): warning C4313: "printf": 格式字符串中的 "%s" 与类型为 "int" 的参数 1 冲突
+﻿  flags.c
   coding_practice.vcxproj -> C:\Users\ROG\Documents\GitHub\coding_practice\x64\Debug\coding_practice.exe

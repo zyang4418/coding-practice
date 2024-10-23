@@ -5,7 +5,7 @@ int main(void)
 	int b = 2;
 	int c = a + b;
 
-	printf("%s", c);
+	printf("%d", c);
 
 	return 0;
 }

@@ -1,4 +1,4 @@
-//程序清单 4.2 使用不同类型的字符串
+//绋嬪簭娓呭崟 4.2 浣跨敤涓嶅悓绫诲瀷鐨勫瓧绗︿覆
 #include <stdio.h>
 #define PRAISE "You are an extraordinary being."
 int main(void)
