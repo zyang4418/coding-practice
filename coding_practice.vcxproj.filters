@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="talkback.c">
+    <ClCompile Include="FileName.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
