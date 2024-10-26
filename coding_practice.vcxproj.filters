@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="flags.c">
+    <ClCompile Include="golf.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
