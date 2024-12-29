@@ -1,11 +1,13 @@
-#include <stdio.h>
+﻿#include <stdio.h>
+#include <Windows.h>
+#include <mmsystem.h>
+#pragma comment(lib, "winmm.lib")
 int main(void)
 {
-	int a = 1;
-	int b = 2;
-	int c = a + b;
-
-	printf("%d", c);
+	mciSendString("open ./bgm.wma alias music", NULL, 0, NULL);
+	mciSendString("play music", NULL, 0, NULL);
+	mciSendString("play music repeat", NULL, 0, NULL);
+	system("pause");
 
 	return 0;
 }
