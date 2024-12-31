@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "python(zyang)", "python(zyang)\python(zyang).pyproj", "{A036DA8B-837C-430D-9013-77823DAF0387}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp(zyang)", "cpp(zyang)\cpp(zyang).vcxproj", "{B8AF86ED-5F12-4F3B-82C7-88C2D52C025D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShellHost", "ShellHost\ShellHost.vcxproj", "{092798A2-703C-483E-98DD-442EF7B987EA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "python(zyang)", "python(zyang)\python(zyang).pyproj", "{A036DA8B-837C-430D-9013-77823DAF0387}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A036DA8B-837C-430D-9013-77823DAF0387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A036DA8B-837C-430D-9013-77823DAF0387}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{A036DA8B-837C-430D-9013-77823DAF0387}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{A036DA8B-837C-430D-9013-77823DAF0387}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A036DA8B-837C-430D-9013-77823DAF0387}.Release|x64.ActiveCfg = Release|Any CPU
-		{A036DA8B-837C-430D-9013-77823DAF0387}.Release|x86.ActiveCfg = Release|Any CPU
 		{B8AF86ED-5F12-4F3B-82C7-88C2D52C025D}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{B8AF86ED-5F12-4F3B-82C7-88C2D52C025D}.Debug|Any CPU.Build.0 = Debug|x64
 		{B8AF86ED-5F12-4F3B-82C7-88C2D52C025D}.Debug|x64.ActiveCfg = Debug|x64
@@ -49,6 +43,12 @@ Global
 		{092798A2-703C-483E-98DD-442EF7B987EA}.Release|x64.Build.0 = Release|x64
 		{092798A2-703C-483E-98DD-442EF7B987EA}.Release|x86.ActiveCfg = Release|Win32
 		{092798A2-703C-483E-98DD-442EF7B987EA}.Release|x86.Build.0 = Release|Win32
+		{A036DA8B-837C-430D-9013-77823DAF0387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A036DA8B-837C-430D-9013-77823DAF0387}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A036DA8B-837C-430D-9013-77823DAF0387}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A036DA8B-837C-430D-9013-77823DAF0387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A036DA8B-837C-430D-9013-77823DAF0387}.Release|x64.ActiveCfg = Release|Any CPU
+		{A036DA8B-837C-430D-9013-77823DAF0387}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
