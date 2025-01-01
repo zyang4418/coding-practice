@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+int main(void)
 {
     // 创建VideoCapture对象，参数为0表示打开默认摄像头
     VideoCapture cap(0);
