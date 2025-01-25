@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	const double RENT = 3852.99; //const 变量
+	const double RENT = 3852.99; //const 变量：限定变量只读
 	
 	printf("*%f*\n", RENT);
 	printf("*%e*\n", RENT);

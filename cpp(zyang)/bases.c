@@ -1,5 +1,3 @@
-//程序清单 3.3 bases.c ����
-//bases.c--��ʮ���ơ��˽��ơ�ʮ�����ƴ�ӡʮ������ 100
 #include <stdio.h>
 int main(void)
 {

@@ -9,5 +9,4 @@ int main(void)
 	scanf_s("%s", name, sizeof(name));
 	printf("Hello, %s. %s\n", name, PRAISE);
 
-	return 0;
 }
