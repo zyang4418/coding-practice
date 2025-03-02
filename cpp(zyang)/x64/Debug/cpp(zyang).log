@@ -1,2 +1,4 @@
 ﻿  FileName.c
-  cpp(zyang).vcxproj -> C:\src\coding-practice\x64\Debug\cpp(zyang).exe
+C:\src\coding-practice\cpp(zyang)\FileName.c(7,20): error C3873: '0x2013': this character is not allowed as a first character of an identifier
+C:\src\coding-practice\cpp(zyang)\FileName.c(7,20): error C2146: syntax error: missing ')' before identifier '–'
+C:\src\coding-practice\cpp(zyang)\FileName.c(7,35): error C2059: syntax error: ')'
