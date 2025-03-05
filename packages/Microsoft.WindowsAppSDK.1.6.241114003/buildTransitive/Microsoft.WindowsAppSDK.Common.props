@@ -1,0 +1,21 @@
+<!--
+  Copyright (c) Microsoft Corporation. Licensed under the MIT License
+-->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MicrosoftWindowsAppSDKPackageDir>$([MSBuild]::NormalizeDirectory('$(MSBuildThisFileDirectory)','..'))</MicrosoftWindowsAppSDKPackageDir>
+    <MicrosoftWindowsAppSDKChannel>stable</MicrosoftWindowsAppSDKChannel>
+    <PrepareForBuildDependsOn>$(PrepareForBuildDependsOn);WindowsAppSDKVerifyKitVersion</PrepareForBuildDependsOn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Id="VersionGeneral" Include="WindowsAppSDK" />
+    <ProjectCapability Id="VersionSpecific" Include="WindowsAppSDK.1.6.241114003" />
+  </ItemGroup>
+  <Target Name="WindowsAppSDKVerifyKitVersion" Condition="'$(WindowsAppSDKVerifyKitVersion)'!='false' and '$(MicrosoftWindowsAppSDKChannel)'=='experimental' and '@(Midl)'!=''">
+    <PropertyGroup>
+      <WindowsAppSDKAtLeast22000>false</WindowsAppSDKAtLeast22000>
+      <WindowsAppSDKAtLeast22000 Condition="'$(TargetPlatformVersion)' &gt;= '10.0.22000.0'">true</WindowsAppSDKAtLeast22000>
+    </PropertyGroup>
+    <Error Condition="$(WindowsAppSDKAtLeast22000) != 'true'" Text="This version of Windows App SDK requires Windows SDK version 10.0.22000.0 or later." />
+  </Target>
+</Project>
