@@ -1,25 +1,16 @@
 ﻿#include <stdio.h>
 
 int main() {
-    double open, high, low, close;
-    scanf("%lf %lf %lf %lf", &open, &high, &low, &close);
+    double len, high, x, y, z;
+    scanf("%lf %lf %lf %lf %lf", &len, &high, &x, &y, &z);
 
-    if (close < open) {
-        printf("BW-Solid");
-    } else if (close > open) {
-        printf("R-Hollow");
-    } else if (close == open) {
-        printf("R-Cross");
-    }
-
-    if (low < open && low < close && high > open && high > close) {
-        printf(" with Lower Shadow and Upper Shadow");
-    }
-    else if (low < open && low < close) {
-        printf(" with Lower Shadow");
-    } else if (high > open && high > close) {
-        printf(" with Upper Shadow");
-    }
+    double abef, ecgh, dfhg;
+    abef = (x + y) * high / 2;
+    printf("Area of ABEF is %.3lf\n", abef);
+    ecgh = (len - x) * high / 4 + ( (y - x) / 2 + len - y) * z / 2;
+    printf("Area of ECGH is %.3lf\n", ecgh);
+    dfhg = (high - z) * ( (y - x) / 2 + len - y) / 2 + (len - y) * high / 4;
+    printf("Area of DFHG is %.3lf\n", dfhg);
 
     return 0;
 }
