@@ -18,10 +18,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b645645-3e0f-433a-8bb8-32fe627c5b17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/c_cpp_properties.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.clang-tidy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp-primer-plus/FileName.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp-primer-plus/FileName.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,18 @@
       <workItem from="1741443926688" duration="47000" />
       <workItem from="1741444006043" duration="4166000" />
       <workItem from="1741451012531" duration="23000" />
+      <workItem from="1741490569805" duration="1931000" />
+      <workItem from="1741502754035" duration="2485000" />
+      <workItem from="1741518702941" duration="2659000" />
+      <workItem from="1741523336147" duration="374000" />
+      <workItem from="1741526384405" duration="346000" />
+      <workItem from="1741529448276" duration="336000" />
+      <workItem from="1741530168414" duration="1403000" />
+      <workItem from="1741535740232" duration="62000" />
+      <workItem from="1741535815467" duration="12000" />
+      <workItem from="1741536810586" duration="102000" />
+      <workItem from="1741615905273" duration="692000" />
+      <workItem from="1741706202248" duration="309000" />
     </task>
     <servers />
   </component>
