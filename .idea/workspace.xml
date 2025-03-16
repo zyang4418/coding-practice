@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b645645-3e0f-433a-8bb8-32fe627c5b17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.clang-format" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp-primer-plus/FileName.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintia/FileName.c" beforeDir="false" afterPath="$PROJECT_DIR$/pintia/FileName.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintia/FileName.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pintia/FileName.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,31 +43,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ File.FileName.cpp.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.advertisement.text.has.clang-format": "true",
-    "cf.advertisement.text.overridden": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/src/coding-practice/pintia/FileName.cpp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.FileName.cpp (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.FileName.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
+    &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/src/coding-practice/pintia/FileName.cpp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="FileName.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="coding-practice" TARGET_NAME="FileName.cpp (1)" CONFIG_NAME="FileName.cpp (1)">
+    <configuration name="FileName.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="coding-practice" TARGET_NAME="FileName.cpp" CONFIG_NAME="FileName.cpp">
       <option name="sourceFile" value="C:\src\coding-practice\pintia\FileName.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
@@ -105,7 +103,24 @@
       <workItem from="1741709754159" duration="7341000" />
       <workItem from="1741754625848" duration="2009000" />
       <workItem from="1741766744607" duration="2770000" />
-      <workItem from="1741769693885" duration="38000" />
+      <workItem from="1741769693885" duration="3620000" />
+      <workItem from="1741784985551" duration="1078000" />
+      <workItem from="1741886084142" duration="1231000" />
+      <workItem from="1741917829854" duration="7843000" />
+      <workItem from="1741930409811" duration="273000" />
+      <workItem from="1741965284373" duration="6630000" />
+      <workItem from="1741974467001" duration="377000" />
+      <workItem from="1741974859177" duration="1554000" />
+      <workItem from="1741978018858" duration="87000" />
+      <workItem from="1742004783419" duration="6465000" />
+      <workItem from="1742014885694" duration="2580000" />
+      <workItem from="1742032483516" duration="14000" />
+      <workItem from="1742033771498" duration="857000" />
+      <workItem from="1742043466825" duration="465000" />
+      <workItem from="1742052143028" duration="10712000" />
+      <workItem from="1742064399457" duration="9301000" />
+      <workItem from="1742110221256" duration="1543000" />
+      <workItem from="1742113723565" duration="76000" />
     </task>
     <servers />
   </component>
