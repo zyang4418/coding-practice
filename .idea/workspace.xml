@@ -9,6 +9,7 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
@@ -20,8 +21,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b645645-3e0f-433a-8bb8-32fe627c5b17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pintia/temp.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pintia/FileName.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pintia/FileName.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintia/bgm.mp3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +138,16 @@
       <workItem from="1742458165567" duration="8165000" />
       <workItem from="1742469709061" duration="5497000" />
       <workItem from="1742478279566" duration="20000" />
+      <workItem from="1742484448491" duration="2351000" />
+      <workItem from="1742522642052" duration="5896000" />
+      <workItem from="1742528724361" duration="597000" />
+      <workItem from="1742565803412" duration="15506000" />
+      <workItem from="1742582042875" duration="1096000" />
+      <workItem from="1742583156180" duration="2097000" />
+      <workItem from="1742585552080" duration="89000" />
+      <workItem from="1742585704267" duration="471000" />
+      <workItem from="1742586244632" duration="183000" />
+      <workItem from="1742586441911" duration="152000" />
     </task>
     <servers />
   </component>
