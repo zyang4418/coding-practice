@@ -9,7 +9,6 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
@@ -21,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b645645-3e0f-433a-8bb8-32fe627c5b17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pintia/temp.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pintia/FileName.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pintia/FileName.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintia/bgm.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintia/music.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintia/temp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pintia/temp.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +72,7 @@
 }</component>
   <component name="RunManager">
     <configuration name="FileName.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="coding-practice" TARGET_NAME="FileName.cpp" CONFIG_NAME="FileName.cpp">
+      <option name="compilerOptions" value="-lwinmm" />
       <option name="sourceFile" value="C:\src\coding-practice\pintia\FileName.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
@@ -148,6 +149,21 @@
       <workItem from="1742585704267" duration="471000" />
       <workItem from="1742586244632" duration="183000" />
       <workItem from="1742586441911" duration="152000" />
+      <workItem from="1742619719975" duration="1146000" />
+      <workItem from="1742640653379" duration="3000" />
+      <workItem from="1742699424083" duration="5000" />
+      <workItem from="1742719732981" duration="1373000" />
+      <workItem from="1742728220202" duration="4085000" />
+      <workItem from="1742743335976" duration="53000" />
+      <workItem from="1742746852489" duration="73000" />
+      <workItem from="1742746939061" duration="5066000" />
+      <workItem from="1742752404683" duration="53000" />
+      <workItem from="1743090052087" duration="2326000" />
+      <workItem from="1743093620594" duration="406000" />
+      <workItem from="1743094675031" duration="79000" />
+      <workItem from="1743234185463" duration="12000" />
+      <workItem from="1743580938444" duration="4402000" />
+      <workItem from="1743594594636" duration="1528000" />
     </task>
     <servers />
   </component>
