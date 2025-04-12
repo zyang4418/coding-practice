@@ -21,10 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4b645645-3e0f-433a-8bb8-32fe627c5b17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pintia/FileName.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pintia/FileName.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintia/music.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintia/temp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pintia/temp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintia/temp.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/src/coding-practice/pintia/FileName.cpp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/src/cc-helper&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -78,6 +76,14 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -164,6 +170,14 @@
       <workItem from="1743234185463" duration="12000" />
       <workItem from="1743580938444" duration="4402000" />
       <workItem from="1743594594636" duration="1528000" />
+      <workItem from="1744187345930" duration="27000" />
+      <workItem from="1744198928799" duration="1151000" />
+      <workItem from="1744272134381" duration="740000" />
+      <workItem from="1744274594002" duration="46000" />
+      <workItem from="1744278706697" duration="12000" />
+      <workItem from="1744337353292" duration="5676000" />
+      <workItem from="1744347583983" duration="4782000" />
+      <workItem from="1744368933474" duration="7081000" />
     </task>
     <servers />
   </component>
