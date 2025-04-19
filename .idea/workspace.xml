@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b645645-3e0f-433a-8bb8-32fe627c5b17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cpp/history.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/temp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintia/FileName.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pintia/FileName.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pintia/FileName.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintia/temp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +181,24 @@
       <workItem from="1744337353292" duration="5676000" />
       <workItem from="1744347583983" duration="4782000" />
       <workItem from="1744368933474" duration="7081000" />
+      <workItem from="1744550882533" duration="10000" />
+      <workItem from="1744551003487" duration="28000" />
+      <workItem from="1744562311544" duration="28000" />
+      <workItem from="1744792809273" duration="3500000" />
+      <workItem from="1744804255596" duration="793000" />
+      <workItem from="1744806752042" duration="3215000" />
+      <workItem from="1744887849286" duration="856000" />
+      <workItem from="1744909522056" duration="8000" />
+      <workItem from="1744909544541" duration="121000" />
+      <workItem from="1744909685892" duration="10000" />
+      <workItem from="1744909847424" duration="19000" />
+      <workItem from="1744910816000" duration="758000" />
+      <workItem from="1744912114847" duration="1000" />
+      <workItem from="1744942516482" duration="4626000" />
+      <workItem from="1744989436430" duration="4095000" />
+      <workItem from="1744998094382" duration="1251000" />
+      <workItem from="1744999382588" duration="4167000" />
+      <workItem from="1745032707591" duration="11287000" />
     </task>
     <servers />
   </component>
