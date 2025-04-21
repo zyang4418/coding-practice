@@ -867,6 +867,18 @@ int main() {
 }
 
 // 多个整数的逆序输出-递归
+#include <stdio.h>
+
+void F(int n);
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    F(n);
+    return 0;
+}
+
 void F(int n) {
     if (n <= 0) {
         return;
@@ -878,6 +890,19 @@ void F(int n) {
 }
 
 // 寻找自守数
+#include <stdio.h>
+
+int IsAutomorphic(int x);
+void FindAutomorphic(int lower, int upper);
+
+int main()
+{
+    int a, b;
+    scanf("%d%d", &a, &b);
+    FindAutomorphic(a, b);
+    return 0;
+}
+
 int total = 0;
 int IsAutomorphic1(int x) {
     if (x == 0) {
@@ -913,7 +938,24 @@ void FindAutomorphic(int lower, int upper) {
 }
 
 // 统计各位数字之和是5的数
-int is( int number )
+#include <stdio.h>
+
+int is( int number );
+void count_sum( int a, int b );
+
+int main()
+{
+    int a, b;
+
+    scanf("%d %d", &a, &b);
+    if (is(a)) printf("%d is counted.\n", a);
+    if (is(b)) printf("%d is counted.\n", b);
+    count_sum(a, b);
+
+    return 0;
+}
+
+int is(int number)
 {
     int sum = 0;
     int temp = number;
@@ -928,7 +970,8 @@ int is( int number )
     }
     return 0;
 }
-void count_sum( int a, int b )
+
+void count_sum(int a, int b)
 {
     int count = 0, sum = 0;
     if (a > b)
@@ -949,6 +992,20 @@ void count_sum( int a, int b )
 }
 
 // 全局变量和静态变量
+#include <stdio.h>
+
+int max = 0, min = 9999999, total = 0;
+int fun(void);
+
+int main()
+{
+    int n;
+    n=fun();
+    n=fun();
+    n=fun();
+    printf("max=%d min=%d total=%d ave=%.1f", max, min, total, (float)total/n);
+}
+
 int fun (void)
 {
     int num;
@@ -963,14 +1020,28 @@ int fun (void)
         }
         count++;
         total += num;
-        if (num>max)max = num;
-        if (num<min)min = num;
+        if (num > max) max = num;
+        if (num < min) min = num;
     }
     sum += count;
     return sum;
 }
 
 // 符号函数
+#include <stdio.h>
+
+int sign(int x);
+
+int main()
+{
+    int x;
+
+    scanf("%d", &x);
+    printf("sign(%d) = %d\n", x, sign(x));
+
+    return 0;
+}
+
 int sign( int x )
 {
     if(x>0)
@@ -988,6 +1059,19 @@ int sign( int x )
 }
 
 // 进制转换
+#include <stdio.h>
+
+void Fun(int x,int p);
+
+int main(){
+    int x;scanf("%d",&x);
+    Fun(x,16);putchar('\n');
+    Fun(x,10);putchar('\n');
+    Fun(x,8);putchar('\n');
+    Fun(x,2);putchar('\n');
+    return 0;
+}
+
 void Fun(int x, int p)
 {
     if (x >= p)
@@ -1002,6 +1086,21 @@ void Fun(int x, int p)
 }
 
 // 递归法求Fibonacci数列第n项的值
+#include <stdio.h>
+
+int fun(int n);
+
+int main()
+{
+    int i;
+    for (i = 1; i <= 20; i++)
+    {
+        printf("%6d", fun(i));
+        if (i % 5 == 0) printf("\n");
+    }
+    return 0;
+}
+
 int fun(int n) {
     if (n == 1 || n == 2) {
         return 1;
@@ -1011,6 +1110,21 @@ int fun(int n) {
 }
 
 // 字符金字塔
+#include <stdio.h>
+
+void CharPyramid(int n, char ch);
+
+int main()
+{
+    int n;
+    char ch;
+
+    scanf("%d %c", &n, &ch);
+    CharPyramid(n, ch);
+
+    return 0;
+}
+
 void CharPyramid(int n, char ch) {
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n - i; j++) {
@@ -1024,6 +1138,19 @@ void CharPyramid(int n, char ch) {
 }
 
 // 输出指定范围内的自守数
+#include <stdio.h>
+
+int IsAutomorphic(int x);
+void FindAutomorphic(int lower, int upper);
+
+int main()
+{
+    int a, b;
+    scanf("%d%d", &a, &b);
+    FindAutomorphic(a, b);
+    return 0;
+}
+
 int total = 0;
 int IsAutomorphic(int x) {
     if (x == 0) {
@@ -1885,25 +2012,62 @@ int main() {
  }
 
 // 找密码
+#include <cstdio>
+#include <cstdlib>
+#define N 100
+#define M 5 // 五行字符串
+
+int decode(char **s); // **s是指向五行字符串指针的指针
+
+int main() {
+    char *s[M]; // 指向五行字符串的指针
+    int i; // 累加器
+    int key; // 密码
+    for (i = 0; i < M; i++) {
+        s[i] = (char *) malloc((N + 1) * sizeof(char)); // 存储字符的数组
+        gets(s[i]); // 将字符串读取到字符数组
+    }
+    // s为指向字符数组首元类型的地址，*s为指向字符数组类型的地址，**s为指向指针类型的地址（其指针为字符数组首元地址）
+    key = decode(s); // 解密码
+    printf("%04d", key); // 输出密码
+    for (i = 0; i < M; i++) {
+        free(s[i]); // 释放内存
+    }
+
+    return 0;
+}
+
 int decode(char **s) {
+    // 获取最后一行字符串（密码字符来源）
     char *last_line = s[4];
+    // 存储前四行每个对应位置的字符出现总次数
     int counts[4] = {0};
 
+    // 遍历前四行字符串（每个对应密码的一个数字）
     for (int i = 0; i < 4; i++) {
+        // 当前要检测的目标行（第i行）
         char *current_line = s[i];
-        int sum = 0;
+        int sum = 0; // 存储当前行的累计出现次数
+
+        // 遍历最后一行中的每个字符
         for (int j = 0; last_line[j] != '\0'; j++) {
-            char c = last_line[j];
-            int cnt = 0;
+            char c = last_line[j]; // 当前要统计的字符
+            int cnt = 0; // 当前字符在目标行的出现次数
+
+            // 在目标行中统计该字符的出现次数
             for (int k = 0; current_line[k] != '\0'; k++) {
                 if (current_line[k] == c) {
                     cnt++;
                 }
             }
-            sum += cnt;
+
+            sum += cnt; // 将当前字符的统计结果累加到总次数
         }
-        counts[i] = sum;
+
+        counts[i] = sum; // 记录第i行对应的密码数字
     }
 
+    // 将四个统计结果组合成4位数密码
+    // 第一位*1000 + 第二位*100 + 第三位*10 + 第四位
     return counts[0] * 1000 + counts[1] * 100 + counts[2] * 10 + counts[3];
 }

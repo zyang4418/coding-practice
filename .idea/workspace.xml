@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
-    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
@@ -20,11 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b645645-3e0f-433a-8bb8-32fe627c5b17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cpp/history.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/temp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintia/FileName.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintia/FileName.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pintia/FileName.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/hiredis/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/hiredis/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/hiredis/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/hiredis/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/history.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/history.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music.wma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintia/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintia/FileName.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/cpp/FileName.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -49,36 +57,59 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;C/C++ File.FileName.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.FileName.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.FileName.cpp.executor&quot;: &quot;Profiler&quot;,
+    &quot;Makefile Target.Makefile.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
     &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/src/cc-helper&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/src/coding-practice/cpp/FileName.cpp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redis&quot;
+    ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Makefile Target.Makefile">
     <configuration name="FileName.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="coding-practice" TARGET_NAME="FileName.cpp" CONFIG_NAME="FileName.cpp">
-      <option name="compilerOptions" value="-lwinmm" />
-      <option name="sourceFile" value="C:\src\coding-practice\pintia\FileName.cpp" />
+      <option name="sourceFile" value="C:\src\coding-practice\cpp\FileName.cpp" />
+      <option name="toolchainName" value="WSL" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Makefile" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/cpp/oatpp/Makefile" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.FileName.cpp" />
+      <item itemvalue="Makefile Target.Makefile" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.Makefile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -199,6 +230,21 @@
       <workItem from="1744998094382" duration="1251000" />
       <workItem from="1744999382588" duration="4167000" />
       <workItem from="1745032707591" duration="11287000" />
+      <workItem from="1745047036143" duration="1461000" />
+      <workItem from="1745048515071" duration="143000" />
+      <workItem from="1745048665359" duration="6047000" />
+      <workItem from="1745069328148" duration="122000" />
+      <workItem from="1745069621856" duration="52000" />
+      <workItem from="1745074182864" duration="5602000" />
+      <workItem from="1745085151885" duration="1101000" />
+      <workItem from="1745087321611" duration="103000" />
+      <workItem from="1745087436858" duration="68000" />
+      <workItem from="1745087609619" duration="590000" />
+      <workItem from="1745088212358" duration="112000" />
+      <workItem from="1745088520392" duration="94000" />
+      <workItem from="1745120858906" duration="3095000" />
+      <workItem from="1745127890875" duration="1252000" />
+      <workItem from="1745232648433" duration="5000" />
     </task>
     <servers />
   </component>
