@@ -2071,3 +2071,257 @@ int decode(char **s) {
     // 第一位*1000 + 第二位*100 + 第三位*10 + 第四位
     return counts[0] * 1000 + counts[1] * 100 + counts[2] * 10 + counts[3];
 }
+
+// 输出特定范围内符合条件的数
+#include <cstdio>
+
+void fun(int *Num, int begin, int end, int digi,int *Count);
+void printNum(int *Num,int Count);
+
+int main()
+{
+    int numCount,m,n, diginum, num[1000],i;
+
+    scanf("%d,%d", &m, &n);
+    scanf("%d",&diginum);
+
+    fun(num, m, n, diginum,&numCount) ;
+    printNum(num,numCount);
+
+    return 0;
+}
+
+void fun(int *Num, int begin, int end, int digi, int *Count) {
+    *Count = 0;
+    if (digi == 0) { // 处理digi为0的情况，直接返回
+        return;
+    }
+    for (int i = begin; i <= end; i++) {
+        if (i % digi != 0) { // 检查是否能被digi整除
+            continue;
+        }
+        int temp = i;
+        int cnt = 0;
+        while (temp != 0) { // 分解各位并统计digi出现的次数
+            int d = temp % 10;
+            if (d == digi) {
+                cnt++;
+            }
+            temp /= 10;
+        }
+        if (cnt >= 2) { // 满足条件则存入数组
+            Num[*Count] = i;
+            (*Count)++;
+        }
+    }
+}
+
+void printNum(int *Num, int Count) {
+    if (Count == 0) {
+        printf("No number!");
+        return;
+    }
+    for (int i = 0; i < Count; i++) {
+        printf("%d", Num[i]);
+        if (i != Count - 1) {
+            printf(" ");
+        }
+    }
+}
+
+// 玩转函数指针
+#include <stdio.h>
+
+void isFactorOf(int x, int y){
+    if(x % y) printf("%d is not a factor of %d.\n", y, x);
+    else printf("%d is a factor of %d.\n", y, x);
+}
+
+void proceed(int *a, int *b, int size, void (*fp)(int x, int y));
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    int a[n], b[n];
+    for(int i=0; i<n; i++) scanf("%d", a+i);
+    for(int i=0; i<n; i++) scanf("%d", b+i);
+    proceed(a, b, n, isFactorOf);
+    return 0;
+}
+
+void proceed(int *a, int *b, int size, void (*fp)(int x, int y)) {
+    for (int i = 0; i < size; i++) {
+        fp(a[i], b[i]);
+    }
+}
+
+// 数组里最大的数和最小的数
+#include <stdio.h>
+#include <stdlib.h>
+
+void MinArray (int a[], int n, int *p, int *q);
+
+int main(){
+
+    int N, *a = NULL, i;
+    int da, xiao;
+
+    scanf("%d", &N);
+
+    a = (int*)malloc(sizeof(int) * N);
+
+    for(i = 0 ; i < N; i++){
+        scanf("%d", &a[i]);
+    }
+
+    MinArray ( a, N, &da, &xiao );
+
+    printf("max = %d, min = %d", da, xiao);
+
+    return 0;
+
+}
+
+void MinArray(int a[], int n, int *p, int *q) {
+    // 初始化最大值和最小值为数组的第一个元素
+    *p = a[0];
+    *q = a[0];
+
+    // 遍历数组，比较并更新最大值和最小值
+    for (int i = 1; i < n; i++) {
+        if (a[i] > *p) {
+            *p = a[i];  // 更新最大值
+        }
+        if (a[i] < *q) {
+            *q = a[i];  // 更新最小值
+        }
+    }
+}
+
+// 计算两数的和与差
+#include <stdio.h>
+
+void sum_diff( float op1, float op2, float *psum, float *pdiff );
+
+int main()
+{
+    float a, b, sum, diff;
+
+    scanf("%f %f", &a, &b);
+    sum_diff(a, b, &sum, &diff);
+    printf("The sum is %.2f\nThe diff is %.2f\n", sum, diff);
+
+    return 0;
+}
+
+void sum_diff(float op1, float op2, float *psum, float *pdiff) {
+    *psum = op1 + op2;
+    *pdiff = op1 - op2;
+}
+
+// 拆分实数的整数与小数部分
+#include <stdio.h>
+
+void splitfloat( float x, int *intpart, float *fracpart );
+
+int main()
+{
+    float x, fracpart;
+    int intpart;
+
+    scanf("%f", &x);
+    splitfloat(x, &intpart, &fracpart);
+    printf("The integer part is %d\n", intpart);
+    printf("The fractional part is %g\n", fracpart);
+
+    return 0;
+}
+
+void splitfloat(float x, int *intpart, float *fracpart) {
+    *intpart = (int)x;
+    *fracpart = x - *intpart;
+}
+
+// 将整数中每一位上为偶数的数依次取出构成新数
+#include <stdio.h>
+
+void fun (long s, long *t);
+
+int main()
+{ long s, t;
+    scanf("%ld", &s);
+    fun(s, &t);
+    printf("The result is: %ld\n", t);
+    return 0;
+}
+
+void fun(long s, long *t) {
+    long temp = 0;
+    while (s > 0) {
+        long digit = s % 10;
+        if (digit % 2 == 0) {
+            temp = temp * 10 + digit;
+        }
+        s /= 10;
+    }
+    // 反转新数以恢复正确的顺序
+    long result = 0;
+    while (temp > 0) {
+        result = result * 10 + temp % 10;
+        temp /= 10;
+    }
+    *t = result;
+}
+
+// 输入年份和天数，输出对应的年、月、日
+# include <stdio.h>
+
+void month_day (int year, int yearday, int * pmonth, int * pday);
+
+int main ()
+{
+    int day, month, year, yearday; /*  定义代表日、月、年和天数的变量*/
+    scanf ("%d%d", &year, &yearday );
+    month_day (year, yearday, &month, &day );/* 调用计算月、日函数  */
+    printf ("%d %d %d\n", year, month, day );
+    return 0;
+}
+
+void month_day ( int year, int yearday, int * pmonth, int * pday) {
+    int days_in_month[13] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    int i, sum = 0;
+
+    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+        days_in_month[2] = 29;
+    }
+
+    for (i = 1; i <= 12; i++) {
+        sum += days_in_month[i];
+        if (sum >= yearday) {
+            break;
+        }
+    }
+
+    *pmonth = i;
+    *pday = yearday - (sum - days_in_month[i]);
+}
+
+// 求两个形参的乘积和商
+#include <stdio.h>
+
+void fun(double a, double b, double *x, double *y);
+
+int main () {
+    double a, b, c, d;
+    scanf ("%lf%lf", &a, &b );
+    fun ( a , b, &c, &d ) ;
+    printf ("c=%.2f  d=%.2f\n", c, d );
+    return 0;
+}
+
+void fun(double a, double b, double *x, double *y) {
+    *x = a * b;
+    *y = a / b;
+}
+

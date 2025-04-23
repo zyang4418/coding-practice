@@ -119,8 +119,13 @@
       <change afterPath="$PROJECT_DIR$/cpp/hiredis/hiredis-config.cmake" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cpp/hiredis/hiredis-targets.cmake" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cpp/hiredis/libhiredis.so.1.2.1-dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/FileName.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/FileName.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/hiredis" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/hiredis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cpp/hiredis/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/hiredis/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cpp/hiredis/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/hiredis/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/history.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/history.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/oatpp/.github/FUNDING.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,39 +150,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;C/C++ File.FileName.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.FileName.cpp.executor&quot;: &quot;Profiler&quot;,
-    &quot;Makefile Target.Makefile.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
-    &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/src/coding-practice/cpp/FileName.cpp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C/C++ File.FileName.cpp (1).executor": "Run",
+    "C/C++ File.FileName.cpp.executor": "Profiler",
+    "Makefile Target.Makefile.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.advertisement.text.has.clang-format": "true",
+    "cf.advertisement.text.overridden": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/src/coding-practice/cpp/FileName.cpp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;redis&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Makefile Target.Makefile">
+}]]></component>
+  <component name="RunManager" selected="C/C++ File.FileName.cpp">
     <configuration name="FileName.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="coding-practice" TARGET_NAME="FileName.cpp" CONFIG_NAME="FileName.cpp">
       <option name="sourceFile" value="C:\src\coding-practice\cpp\FileName.cpp" />
       <option name="toolchainName" value="WSL" />
@@ -336,10 +341,21 @@
       <workItem from="1745127890875" duration="1252000" />
       <workItem from="1745232648433" duration="5000" />
       <workItem from="1745254997130" duration="75000" />
+      <workItem from="1745255417857" duration="52000" />
+      <workItem from="1745255575985" duration="606000" />
+      <workItem from="1745257351217" duration="1586000" />
+      <workItem from="1745343536231" duration="3374000" />
+      <workItem from="1745410881013" duration="5115000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/cpp/hiredis" />
+      <path value="$PROJECT_DIR$/cpp/oatpp" />
+    </ignored-roots>
   </component>
 </project>
