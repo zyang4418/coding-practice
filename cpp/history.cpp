@@ -2325,3 +2325,70 @@ void fun(double a, double b, double *x, double *y) {
     *y = a / b;
 }
 
+// 计算两个复数之积
+#include <stdio.h>
+
+struct complex{
+    int real;
+    int imag;
+};
+
+struct complex multiply(struct complex x, struct complex y);
+
+int main()
+{
+    struct complex product, x, y;
+
+    scanf("%d%d%d%d", &x.real, &x.imag, &y.real, &y.imag);
+    product = multiply(x, y);
+    printf("(%d+%di) * (%d+%di) = %d + %di\n",
+            x.real, x.imag, y.real, y.imag, product.real, product.imag);
+
+    return 0;
+}
+
+struct complex multiply (struct complex x, struct complex y) {
+    struct complex product;
+    product.real = x.real * y.real - x.imag * y.imag;
+    product.imag = x.real * y.imag + x.imag * y.real;
+
+    return product;
+}
+
+// 查找书籍
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <memory>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    unique_ptr<string[]> books = make_unique<string[]>(n);
+    unique_ptr<double[]> prices = make_unique<double[]>(n);
+
+    for (int i = 0; i < n; i++) {
+        cin.ignore(); // 忽略换行符
+        getline(cin, books[i]);
+        cin >> prices[i];
+    }
+
+    int maxIndex = 0, minIndex = 0;
+    for (int i = 1; i < n; i++) {
+        if (prices[i] > prices[maxIndex]) {
+            maxIndex = i;
+        }
+        if (prices[i] < prices[minIndex]) {
+            minIndex = i;
+        }
+    }
+
+    cout << fixed << setprecision(2);
+    cout << prices[maxIndex] << ", " << books[maxIndex] << endl;
+    cout << prices[minIndex] << ", " << books[minIndex] << endl;
+
+    return 0;
+}
