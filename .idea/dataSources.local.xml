@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="CL-251.23774.442">
+  <component name="dataSourceStorageLocal" created-in="CL-251.25410.104">
     <data-source name="wsluser@localhost" uuid="02eb5146-2a1c-46d3-a445-d8e8059adb80">
       <database-info product="Redis Standalone" version="7.0.15" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.5" dbms="REDIS" exact-version="7.0.15" exact-driver-version="1.5" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
