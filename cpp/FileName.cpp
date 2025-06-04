@@ -1,14 +1,12 @@
-#include <iomanip>
-#include <string>
+#include <stdio.h>
 
-using namespace std;
+void fun(int i) {
 
-struct book {
-    string name;
-    int price;
-};
+}
 
 int main() {
-
+    for (int i = 200; i <= 3000; i++) {
+        fun(i);
+    }
     return 0;
 }

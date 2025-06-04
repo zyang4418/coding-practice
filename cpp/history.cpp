@@ -2392,3 +2392,100 @@ int main() {
 
     return 0;
 }
+
+#include <stdio.h>
+
+struct aFriend {
+    char name[11];
+    int birthday;
+    char phone[18];
+} ;
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    struct aFriend friends[n];
+    struct aFriend result[2];
+
+    for (int i = 0; i < n; i++) {
+        scanf("%s", &friends[i].name);
+        scanf("%d", &friends[i].birthday);
+        scanf("%s", &friends[i].phone);
+    }
+
+    result[0].birthday = 100000000;
+    result[1].birthday = 0;
+
+    for (int i = 0; i < n; i++) {
+        if (result[0].birthday > friends[i].birthday) {
+            result[0] = friends[i]; // Old
+        }
+        if (result[1].birthday < friends[i].birthday) {
+            result[1] = friends[i]; // Young
+        }
+    }
+
+    printf("%s %d %s\n", result[1].name, result[1].birthday, result[1].phone);
+    printf("%s %d %s", result[0].name, result[0].birthday, result[0].phone);
+
+    return 0;
+}
+
+/*****************************************************************
+ * 5/28/25 Z.Yang Updated
+ * DEX to BIN, DEX to OCT, DEX to HEX
+ ****************************************************************/
+#include <stdio.h>
+// DEX to BIN
+void dex2bin(int n) {
+    if (n == 0) {
+        return;
+    }
+    if (n > 0) {
+        dex2bin(n / 2);
+        printf("%d", n % 2);
+    }
+}
+
+// DEX to OCT
+void dex2oct(int n) {
+    if (n == 0) {
+        return;
+    }
+    if (n > 0) {
+        dex2oct(n / 8);
+        printf("%d", n % 8);
+    }
+}
+
+// DEX to HEX
+void dex2hex(int n) {
+    if (n == 0) {
+        return;
+    }
+    if (n > 0) {
+        dex2hex(n / 16);
+        int i = n % 16;
+        switch (i) {
+            case 10: printf("A"); break;
+            case 11: printf("B"); break;
+            case 12: printf("C"); break;
+            case 13: printf("D"); break;
+            case 14: printf("E"); break;
+            case 15: printf("F"); break;
+            default: printf("%d", i); break;
+        }
+    }
+}
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    dex2bin(n);
+    printf("\n");
+    dex2oct(n);
+    printf("\n");
+    dex2hex(n);
+    printf("\n");
+    return 0;
+}

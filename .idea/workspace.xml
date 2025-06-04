@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b645645-3e0f-433a-8bb8-32fe627c5b17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/02eb5146-2a1c-46d3-a445-d8e8059adb80.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/FileName.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/FileName.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp/history.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/history.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/辩论.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +40,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/cpp/FileName.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -50,7 +62,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;C/C++ File.FileName.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.FileName.cpp.executor&quot;: &quot;Profiler&quot;,
+    &quot;C/C++ File.FileName.cpp.executor&quot;: &quot;Run&quot;,
     &quot;Makefile Target.Makefile.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -63,13 +75,13 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/src/coding-practice/cpp/FileName.cpp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/src/coding-practice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -78,29 +90,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="C/C++ File.FileName.cpp">
+  <component name="RunManager">
     <configuration name="FileName.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="coding-practice" TARGET_NAME="FileName.cpp" CONFIG_NAME="FileName.cpp">
-      <option name="sourceFile" value="C:\src\coding-practice\cpp\FileName.cpp" />
-      <option name="toolchainName" value="WSL" />
+      <option name="sourceFile" value="D:\src\coding-practice\cpp\FileName.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Makefile" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
-      <makefile filename="$PROJECT_DIR$/cpp/oatpp/Makefile" target="" workingDirectory="" arguments="">
-        <envs />
-      </makefile>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="C/C++ File.FileName.cpp" />
-      <item itemvalue="Makefile Target.Makefile" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Makefile Target.Makefile" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -253,6 +249,23 @@
       <workItem from="1747300333627" duration="192000" />
       <workItem from="1747306869644" duration="2000" />
       <workItem from="1747307422472" duration="16000" />
+      <workItem from="1747744256816" duration="277000" />
+      <workItem from="1747747800109" duration="3000000" />
+      <workItem from="1747752910755" duration="5322000" />
+      <workItem from="1748161070025" duration="5335000" />
+      <workItem from="1748173673361" duration="21000" />
+      <workItem from="1748174444480" duration="92000" />
+      <workItem from="1748174788017" duration="682000" />
+      <workItem from="1748175686388" duration="3019000" />
+      <workItem from="1748179824802" duration="1113000" />
+      <workItem from="1748184398620" duration="15000" />
+      <workItem from="1748193990563" duration="730000" />
+      <workItem from="1748249844684" duration="1501000" />
+      <workItem from="1748323609768" duration="138000" />
+      <workItem from="1748323907344" duration="2000000" />
+      <workItem from="1748417727525" duration="21000" />
+      <workItem from="1748419057543" duration="3867000" />
+      <workItem from="1748448563761" duration="127000" />
     </task>
     <servers />
   </component>
