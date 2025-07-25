@@ -19,7 +19,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b645645-3e0f-433a-8bb8-32fe627c5b17" name="Changes" comment="" />
+    <list default="true" id="4b645645-3e0f-433a-8bb8-32fe627c5b17" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +75,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -261,6 +263,10 @@
       <workItem from="1752660999256" duration="37000" />
       <workItem from="1752727763610" duration="4750000" />
       <workItem from="1753078618614" duration="3000" />
+      <workItem from="1753322328807" duration="8887000" />
+      <workItem from="1753357757960" duration="2542000" />
+      <workItem from="1753434673146" duration="1806000" />
+      <workItem from="1753439262049" duration="1357000" />
     </task>
     <servers />
   </component>
